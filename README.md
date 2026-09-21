@@ -31,6 +31,15 @@ acceleration factors.
 
 ![Volume-level consistency](results/figures/reconformer_volume_level_consistency.png)
 
+## Qualitative Reconstruction Example
+
+The following example shows the middle slice of `file1000000.h5` at 8x
+acceleration. ReconFormer substantially suppresses zero-filled aliasing while
+recovering anatomical structure close to the ground truth. The absolute-error
+map highlights the remaining localized reconstruction differences.
+
+![Qualitative reconstruction comparison](results/figures/file1000000_comparison.png)
+
 ## Volume-Level Analysis
 
 Median improvement over zero-filled reconstruction:
