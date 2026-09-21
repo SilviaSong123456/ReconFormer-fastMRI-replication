@@ -1,0 +1,44 @@
+# MRI datasets
+datasets/
+*.h5
+*.hdf5
+*.zip
+*.tar
+*.tar.gz
+
+# Model checkpoints
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Large inference outputs
+results/*/per_volume_logs/
+results/*/arrays/
+results/*/reconstructions/
+results/*/predictions/
+
+# Runtime logs
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Temporary evaluation data
+single_volume/
+datasets/single_volume/
+
+# Environments and secrets
+.env
+.env.*
+venv/
+.venv/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

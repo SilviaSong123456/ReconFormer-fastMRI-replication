@@ -1,0 +1,16 @@
+Corrected 4x 199-volume evaluation
+==========================================
+Successfully parsed volumes: 199
+Failed volumes: 0
+
+zero_nmse: mean=0.05266163, std=0.03049733, min=0.01460769, max=0.15700343
+zero_ssim: mean=0.65494683, std=0.11671398, min=0.39341690, max=0.88423350
+zero_psnr: mean=29.49809572, std=2.60184260, min=23.35914012, max=39.18628792
+recon_val_loss: mean=0.00000631, std=0.00000176, min=0.00000382, max=0.00001498
+recon_nmse: mean=0.03098708, std=0.02520952, min=0.00289394, max=0.12191580
+recon_ssim: mean=0.73834265, std=0.13606059, min=0.43028677, max=0.95987590
+recon_psnr: mean=32.73230200, std=3.89720859, min=24.50661070, max=42.45526792
+nmse_absolute_reduction: mean=0.02167455, std=0.00682165, min=0.01074028, max=0.05064903
+nmse_relative_reduction_percent: mean=48.73765577, std=17.83242157, min=22.34832121, max=83.47230911
+ssim_absolute_improvement: mean=0.08339582, std=0.02660820, min=0.02235666, max=0.15008580
+psnr_improvement_db: mean=3.23420628, std=1.81164247, min=1.09850082, max=7.81788671
