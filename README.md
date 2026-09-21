@@ -29,7 +29,7 @@ rounding.
 ReconFormer improved NMSE, SSIM and PSNR for **199/199 volumes** at both
 acceleration factors.
 
-![Volume-level consistency](results/figures/volume_level_consistency.png)
+![Volume-level consistency](results/figures/reconformer_volume_level_consistency.png)
 
 ## Volume-Level Analysis
 
