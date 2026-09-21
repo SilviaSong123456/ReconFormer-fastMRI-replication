@@ -222,7 +222,7 @@ def main():
         type=Path,
         default=Path(
             "results/figures/"
-            "volume_level_consistency.png"
+            "reconformer_volume_level_consistency.png"
         ),
     )
     args = parser.parse_args()
